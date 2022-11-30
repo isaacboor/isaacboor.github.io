@@ -34,8 +34,8 @@ html {
 
 html,
 html[data-theme="light"] {
-	--text-font: Play;
-	--source-code-font: Source Code Pro;
+	--text-font: 'Ubuntu';
+	--source-code-font: 'Ubuntu';
 	--very-light-text-color: rgb(222, 222, 222);
 	--light-text-color: rgb(89, 183, 255);
 	--medium-text-color: #555;
@@ -98,7 +98,7 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-	--text-font: Play;
+	--text-font: 'Ubuntu';
 	--source-code-font: Source Code Pro;
 	--very-light-text-color: #EEE;
 	--light-text-color: #c4bbf0;
@@ -201,9 +201,11 @@ pre code {
 pre {
 	border-width: 3px;
 	padding: 0.8rem;
-	white-space: pre-wrap;
 	border-style: none none none solid;
 	border-color: var(--light-text-color);
+  overflow-x: scroll;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
 img {
@@ -221,7 +223,6 @@ header {
 	flex-grow: 1;
 	position: relative;
 }
-
 header a {
 	text-decoration: none;
 }
@@ -339,7 +340,11 @@ b {
 	text-overflow: ellipsis;
 	font-weight: bold;
 }
-
+.posts li .tag {
+  text-align: right;
+  color: var(--link-color);
+  font-weight: normal;
+}
 .posts li time,
 .projects li time {
 	padding-left: 1rem;
@@ -364,6 +369,7 @@ time {
 
 .highlight {
 	margin: 0px;
+  padding-bottom: 20px;
 }
 
 main {
@@ -482,20 +488,14 @@ color: #333;
 }
 
 #search-results {
-
-  text-align: center;
+  list-style-type: none;
+  text-align: left;
   li {
-    text-align: center;
+    text-align: left;
   }
 }
 
-#search-results li::before {
-	content: "›";
-	display: inline-block;
-	margin-left: -1.3em;
-	width: 1.3em;
-	color: var(--main-text-color);
-}
+
 
 .post-nav {
   display: flex;

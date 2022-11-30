@@ -391,14 +391,15 @@ var _$src_8 = {};
   }
 
   function registerInput () {
-    options.searchInput.addEventListener('input', function (e) {
+    options.searchInput.addEventListener('keyup', function (e) {
       if (isWhitelistedKey(e.which)) {
         emptyResultsContainer()
         debounce(function () { search(e.target.value) }, options.debounceTime)
+        if(document.getElementById("search-input").value.length == 0) {document.getElementById("postslist").style = "display: block;";}
+    else {document.getElementById("postslist").style = "display: none;"}
       }
     })
   }
-
   function search (query) {
     if (isValidQuery(query)) {
       emptyResultsContainer()

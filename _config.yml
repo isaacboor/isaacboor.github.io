@@ -19,7 +19,7 @@ author:
   email: your-email@email.com # email adress
 
 # Font Settings
-googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
+googlewebfonts: family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700
 
 # URL settings
 url: "" # Domain Name of host. [username].github.io for github pages # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
@@ -32,7 +32,6 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
 exclude:
   - .jekyll-cache
