@@ -350,6 +350,7 @@ b {
   width: 100vh;
   .container {
     margin-left: 25px;
+    margin-top: 5px;
   }
 }
 
@@ -828,4 +829,8 @@ $link-color: var(--link-color);
 
 .hometags {
   margin: 0px;
+}
+
+.container h1 {
+  margin-bottom: 5px;
 }
