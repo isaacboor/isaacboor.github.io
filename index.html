@@ -1,42 +1,42 @@
 ---
 layout: default
 ---
+
 <section id="intro">
     <div class="flex-row-between">
-        <h1>{{ site.greetings }}</h1>
-        <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
-            <div></div>
-        </button>
+        <div class="img-wrapper">
+            <img src="{{ site.url }}{{ site.baseurl }}/profile.png" alt="">
+        </div>
+        <div class="container">
+            <h1>{{ site.greetings }}</h1>
+            {{ site.description }}
+            <p>
+                <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
+            </p>
+        </div>
+
     </div>
     <div class="bio">
-        {{ site.description }}
-        <p>
-            <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
-        </p>
+
     </div>
 
 
 </section>
 
-
-
-
-<section class="tags">
+<section class="hometags">
     <h2>Tags:</h2>
     {% assign tags = site.tags | sort %}
-    {% for tag in tags %}
     <ul>
+        {% for tag in tags %}
         <li>
-            <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] |
-                replace:'-', ' '
-                }} ({{ tag | last | size
-                }}){% unless forloop.last %}, {% endunless %}
+            <a href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">
+                #{{ tag[0] }}
             </a>
         </li>
+        {% endfor %}
     </ul>
-    {% endfor %}
-</section>
 
+</section>
 <section class="posts" id="Blog">
     <h2>Posts</h2>
     <div class="search-article">
@@ -50,8 +50,7 @@ layout: default
             </svg>
         </label>
 
-        <input type="search" id="search-input" placeholder="Find some articles here"
-            aria-label="Search">
+        <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
         <ul id="search-results"></ul>
     </div>
     <div id="postslist">

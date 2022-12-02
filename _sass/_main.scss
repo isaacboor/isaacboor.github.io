@@ -15,6 +15,8 @@ html {
 #theme-toggle {
 	opacity: 0.65;
 	position: relative;
+  top: 25px;
+  right: 25px;
 	border-radius: 5px;
 	height: 25px;
 	display: flex;
@@ -337,6 +339,20 @@ b {
   }
 }
 
+#intro .img-wrapper {
+  img {
+    width: 130px;
+    border-radius: 50%;
+    border: 5px rgba(255, 255, 255, 0.118) solid;
+  }
+}
+.flex-row-between {
+  width: 100vh;
+  .container {
+    margin-left: 25px;
+  }
+}
+
 .posts li a,
 .posts li div,
 .projects li a {
@@ -389,7 +405,6 @@ main {
 .flex-row-between {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
 .social-footer {
@@ -797,4 +812,20 @@ $link-color: var(--link-color);
     z-index: 15;
     
   }
+}
+
+
+
+.hometags ul{
+  display: inline-block;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+}
+
+.hometags {
+  margin: 0px;
 }
