@@ -19,7 +19,7 @@ But first, here's a few reasons why I like codespaces:
   - It runs fast. (This wasn't a problem before as I use a Macbook Air M1, but still)
 
 Now why did I choose to use vscode in the browser?
-The reason is because I use a browser called Arc. It's got a short waiting list, at the moment but it's very good and has a nice feature called split view that lets you have two websites side by side. Here's an image:
+The reason is because I use a browser called Arc. It's got a short waiting list, at the moment but it's very good and has a nice feature called split view that lets you have two websites side by side in one browser window. Here's an image:
 
 ![Screenshot showing my arc setup with vs-code on the left and my website on the right](/postassets/codespaces-screenshot.png)
 
