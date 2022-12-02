@@ -23,6 +23,6 @@ The reason is because I use a browser called Arc. It's got a short waiting list,
 
 ![Screenshot showing my arc setup with vs-code on the left and my website on the right](/postassets/codespaces-screenshot.png)
 
-You can see some more about Arc Browser [here](httos://www.arc.net)
+You can see some more about Arc Browser [here](https://www.arc.net)
 
 So that's why I switched to Github Codespaces for all my web projects.
