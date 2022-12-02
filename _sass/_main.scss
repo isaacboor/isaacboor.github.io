@@ -10,34 +10,19 @@
 
 html {
 	font-size: 15px;
+  overflow-x: hidden !important;
 }
 
 #theme-toggle {
-	opacity: 0.65;
-	position: relative;
-  top: 25px;
-  right: 25px;
-	border-radius: 5px;
-	height: 25px;
-	display: flex;
-	-webkit-box-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	justify-content: center;
-	transition: opacity 0.3s ease 0s;
-	border: none;
-	outline: none;
-	background: none;
-	cursor: pointer;
-	padding: 0px;
-	appearance: none;
-	transform: scale(0.8);
+  display: none;
 }
-
-html,
-html[data-theme="light"] {
+@media screen {
+  
+}
+@media (prefers-color-scheme: light) {
+html {
 	--text-font: 'Ubuntu';
-	--source-code-font: 'Ubuntu';
+	--source-code-font: 'Ubuntu Mono';
 	--very-light-text-color: rgb(222, 222, 222);
 	--light-text-color: rgb(89, 183, 255);
 	--medium-text-color: #555;
@@ -98,10 +83,12 @@ html[data-theme="light"] {
 		}
 	}
 }
+}
 
-html[data-theme="dark"] {
+@media (prefers-color-scheme: dark){
+html {
 	--text-font: 'Ubuntu';
-	--source-code-font: Source Code Pro;
+	--source-code-font: 'Ubuntu Mono';
 	--very-light-text-color: #EEE;
 	--light-text-color: #c4bbf0;
 	--medium-text-color: #52057b;
@@ -159,7 +146,7 @@ html[data-theme="dark"] {
 		}
 	}
 }
-
+}
 body {
 	font-family: var(--text-font), monospace;
 	text-rendering: optimizeLegibility;
