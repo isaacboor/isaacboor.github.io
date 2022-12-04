@@ -7,7 +7,7 @@ tags: project
 ---
 A simple page that lets make your text look weird.
 
-[Take a look](https://www.isaacboor.me/flagz)
+[Take a look](https://www.isaacboor.me/messagetricks)
 
 ### Examples:
 
