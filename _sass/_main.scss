@@ -823,3 +823,18 @@ $link-color: var(--link-color);
 .container h1 {
   margin-bottom: 5px;
 }
+
+h2, h3 {
+  margin-bottom: -3px;
+  margin-top: 25px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+h2.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}

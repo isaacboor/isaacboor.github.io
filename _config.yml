@@ -2,12 +2,10 @@ site: isaacboor.me
 title: isaacboor.me
 greetings: Hi! I'm Isaac
 description: >-
-  I make stuff sometimes
+  Casual programmer and video editor
 lang: en-GB
 timezone: Europe/London
-repo: https://github.com/DavideBri/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
 
 author:
   name: gesko
