@@ -16,6 +16,12 @@ I do some editing for my friend Ashton and his youtube channel [ashtxn_g](https:
 
 This is my hardware and software setup
 
-* Macbook Air M1 2020 8GB
-* Visual Studio Code
-* Davinci Resolve
+**Computer**
+- Macbook Air 2020 8GB
+
+**Programming**
+- Visual Studio Code
+- Github Codespaces
+
+**Video Editing**
+- Davinci Resolve 18
