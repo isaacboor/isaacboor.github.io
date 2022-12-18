@@ -2,26 +2,28 @@
 layout: page
 title: About
 ---
-Hi, I'm Isaac and I'm a casual programmer and video editor.
+Hi there! I'm Isaac. A casual programmer, video editor and creative person. 
 
-### Programming
+## Things I've made
 
-I mainly work on the things on this website. You can look at the things I've made on my [projects page](/tag/project).
+I haven't made a lot but here's a couple things from newest to oldest.
 
-### Video Editing
+### 09 Murders
 
-I do some editing for my friend Ashton and his youtube channel [ashtxn_g](https://www.youtube.com/@ashtxn_g). Recently a second channel has been made with a couple of his friends called [09 Murders](https://www.youtube.com/@09murders), a 'horror' series.
+A project that me and my friend Ashton (and his friends) have been working on as of late. It's a YouTube 'horror' Channel and I've been editing all the episodes. We plan for this to be a major long-term project so I'll mostly be working on this for a while.  
+[Take a look here](https://www.youtube.com/@09murders)
 
-### Setup
+### ashtxn_g
 
-This is my hardware and software setup
+This is my friend Ashton's main youtube channel. He posts videos about Apple products. He has an impressive collection of iPhones, iPads and iPod. I edit most of his main videos and created his website.  
+[Take a look here](https://www.youtube.com/@ashtxn_g)
 
-**Computer**
-- Macbook Air 2020 8GB
+### Flagz
 
-**Programming**
-- Visual Studio Code
-- Github Codespaces
+I've become interested in Geography recently, so I made a simple flag guessing game. 
+[Take a look here](https://www.isaacboor.me/flagZ)
 
-**Video Editing**
-- Davinci Resolve 18
+### Message Tricks
+
+A page that makes your text look weird, to make your friends confused.
+[Take a look here](https://www.isaacboor.me/messagetricks)
