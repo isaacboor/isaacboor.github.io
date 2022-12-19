@@ -816,3 +816,14 @@ h2.title {
   font-size: 30px;
   margin-bottom: 20px;
 }
+section.featured-content {
+  margin-top: 70px;
+  margin-bottom: -50px;
+}
+.widget {
+  margin-left: 10px;
+  padding: 10px;
+  border: 3px solid rgba(234, 234, 234, 0.376);
+  border-radius: 10px;
+  width: fit-content;
+}
