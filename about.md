@@ -9,4 +9,5 @@ This website is a place for me to share the stuff I make, and give me something 
 Here's a quick setup list:
 
 * Computer: Macbook Air 2020 M1
+* Monitor: Samsung 22" T35F Boarderless IPS Panel
 * Video Editor: DaVinci Resolve
