@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-Hi there! I'm Isaac. A casual programmer, video editor and creative person. 
+Hi there! I'm Isaac. A casual programmer, video editor and creative person from the U.K
 
 ## Things I've made
 
