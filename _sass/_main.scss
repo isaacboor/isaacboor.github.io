@@ -837,6 +837,9 @@ section.featured-content {
   z-index: 999999;
   pointer-events: none;
   background: white;
+  @media (prefers-color-scheme: dark) {
+    background-color: rgb(19, 20, 24);
+  }
   animation-duration: 200ms;
   animation-timing-function: ease-in-out;
 }
